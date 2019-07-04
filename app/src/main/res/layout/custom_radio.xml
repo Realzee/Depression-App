@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#fff8e6"
+    >
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/one"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="একেবারে প্রযোজ্য নয়"
+            android:checked="true"
+            style="@style/MyRadioButton"
+            />
+
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রযোজ্য নয়"
+            android:textSize="17sp"
+            style="@style/MyRadioButton"
+         />
+
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/three"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মাঝামাঝি"
+            style="@style/MyRadioButton"
+            />
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/four"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কিছুটা প্রযোজ্য"
+            style="@style/MyRadioButton"
+            />
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/five"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="পুরোপুরি প্রযোজ্য"
+            style="@style/MyRadioButton"
+            />
+
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
